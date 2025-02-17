@@ -2,7 +2,7 @@ import api from "@/api/api";
 import { useState, useEffect } from "react";
 
 interface Make {
-    MakeId: number;
+    MakeId: string;
     MakeName: string;
 }
 
